@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rytech</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+h2, p{
+    color: #fff;
+}
+p{
+    font-size: large;
+}
+.home-content{
+    margin: 0;
+    padding: 0;
+}
+.home-content img{
+    background-size: cover;
+    display: block;
+    width: 100%;
+}
+.item img {
+    width: 100%;
+}
+.navbar{
+    border: none;
+}
+.jumbotron{
+    background-image: url('Header.jpg');
+    color: #fff;
+}
+.carousel-indicators li {
+    border-color: #007bff;
+  }
+.carousel-indicators .active {
+    background-color: #007bff;
+}
+.carousel-control.right, .carousel-control.left {
+   background-image: none;
+   color: #007bff;
+  }
+.home-content {
+    position: relative;
+}
+.home-content-details {
+    position: absolute;
+    top: 20%;
+    width: 100%;
+}
+.home-content-details h2, p{
+    color: #fff;
+}
+</style>
+<body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                        data-target="#navbar-collapse" aria-expanded="false">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#home">Rytech Solutions</a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="#cart">Cart</a></li>
+                    <li><a href="#">Login</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="jumbotron container-fluid">
+        <div class="text-center">
+            <h1>Welcome to Rytech Solutions</h1>
+            <p>Transforming Visions into Virtual Reality</p>
+        </div>
+    </div>
+
+    <div class="home">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src="Home realme 1.png" alt="realme 1 image">
+                </div>
+                <div class="item">
+                    <img src="Home realme 2.png" alt="realme 2 image">
+                </div>
+                <div class="item">
+                    <img src="Home realme 3.png" alt="realme 3 image">
+                </div>
+            </div>
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+            </a>
+        </div>
+        <div class="home-content">
+            <img src="Home pova 1.png" alt="pova 1 image">
+            <div class="slideanim">
+                <div class="home-content-details text-center">
+                <h2>Power Giant, Poweful and Speedy</h2>
+                <h3>6000mAh Super Big Battery : Unimaginably Powerful</h3>
+                <p>6000mAh super big battery means long </p>
+                <p>standby for 30 days / continuous music</p>
+                <p>playing for 8 days / calling for 64 hours</p> 
+                <p>/ playing games up to 20 hours.</p>
+                <p>Once charged, youre set for long-lasting time.</p>
+                <p>* The battery performance data come from TECNO R&D Team and reserve the rights</p>
+                <p>for all explanation.</p>
+                </div>
+            </div> 
+            <img src="Home pova 2.png" alt="pova 2 image">
+            <img src="Home pova 3.png" alt="pova 3 image">
+            <img src="Home pova 4.png" alt="pova 4 image">
+            <img src="Home pova 5.png" alt="pova 5 image">
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

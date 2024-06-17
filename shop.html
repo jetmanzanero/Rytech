@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop | Rytech</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+/*.content{
+    display: flex;
+    padding-left: 20px;
+}
+.container{
+    border: 1px solid green;
+    padding: 5px;
+    margin: 0;
+    width: 45%;
+    margin-left: 55px;
+}
+.realme-content img{
+    width: 200px;
+    height: 200px;
+    float: right;
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+}*/
+.navbar{
+    border: none;
+}
+.jumbotron{
+    background-color: #007bff;
+    color: #fff;
+}
+
+.carousel-indicators li{
+    border-color: #007bff;
+}
+.carousel-indicators .active {
+    background-color: #007bff;
+}
+.carousel-control.right, .carousel-control.left {
+    background-image: none;
+    color: #007bff;
+}
+
+section:nth-child(odd) {
+    background-color: #fff;
+    color: black; /* Ensure the text is readable on a red background */
+}
+
+section:nth-child(even) {
+    background-color: #f6f6f6;
+    color: black; /* Default text color for better readability on a white background */
+}
+section{
+    padding: 50px;
+}
+
+</style>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60" class="page-transition">
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                        data-target="#navbar-collapse" aria-expanded="false">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">Rytech Solutions</a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="realme.html">Realme</a></li>
+                    <li><a href="#">TechnoPova</a></li>
+                    <li><a href="#">Vivo</a></li>
+                    <li><a href="#">Infinix</a></li>
+                    <li><a href="#">Login <span class="fa fa-sign-in"></span></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <!--<section id="realme" class="container-fluid">
+        <h1>Realme</h1>
+        <h4>New Launches</h4>
+        <div class="content">
+            <div class="container">
+                <div class="clearfix">
+                    <div class="realme-content">
+                        <img class="image-style" src="new Realme 12 5G.png" alt="Realme 12 5G image">
+                        <h2>Realme 12 5G</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="clearfix">
+                    <div class="realme-content">
+                        <img src="new Realme 12pro 5G.png" alt="Realme 12pro 5G image">
+                        <h2>Realme 12 Pro 5G</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </section>-->
+    <div class="jumbotron container-fluid">
+        <div class="text-center">
+            <h1>Welcome to Rytech Solutions</h1>
+            <p>Explore our wide range of products and find the best deals on the latest cellphones.</p>
+        </div>
+    </div>
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="item active">
+                <img src="Home realme 1.png" alt="realme 1 image">
+            </div>
+            <div class="item">
+                <img src="Home realme 2.png" alt="realme 2 image">
+            </div>
+            <div class="item">
+                <img src="Home realme 3.png" alt="realme 3 image">
+            </div>
+        </div>
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
+    </div>
+
+    <div class="text-center">
+        <h1>Smartphones</h1>
+    </div>
+    <section id="realme" class="container-fluid page-content">
+        <h2>Realme</h2>
+        <h4>New Launches</h4>
+        <div class="row d-flex flex-wrap">
+            <div class="col-sm-4 col-xs-12">
+                <div class="panel panel-default panel-new-launch">
+                    <div class="panel-body">
+                        <img src="new Realme 12 5G.png" alt="Realme 12 5G image">
+                        <h2>Realme 12 5G</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 col-xs-12">
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <img src="new Realme 12pro 5G.png" alt="Realme 12pro 5G image">
+                        <h2>Realme 12 Pro 5G</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 col-xs-12">
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <img src="new Realme 12pro 5G.png" alt="Realme 12pro 5G image">
+                        <h2>Realme 12 Pro 5G</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 col-xs-12">
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <img src="new Realme 12pro 5G.png" alt="Realme 12pro 5G image">
+                        <h2>Realme 12 Pro 5G</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 col-xs-12">
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <img src="new Realme 12pro 5G.png" alt="Realme 12pro 5G image">
+                        <h2>Realme 12 Pro 5G</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 col-xs-12">
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <img src="new Realme 12pro 5G.png" alt="Realme 12pro 5G image">
+                        <h2>Realme 12 Pro 5G</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="technopova" class="container-fluid">
+        <h2>Techno Pova</h2>
+        <h4>New Launches</h4>
+        <div class="row d-flex flex-wrap">
+            <div class="col-sm-4 col-xs-12">
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <img src="new Realme 12pro 5G.png" alt="Realme 12pro 5G image">
+                        <h2>Realme 12 Pro 5G</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 col-xs-12">
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <img src="new Realme 12pro 5G.png" alt="Realme 12pro 5G image">
+                        <h2>Realme 12 Pro 5G</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 col-xs-12">
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <img src="new Realme 12pro 5G.png" alt="Realme 12pro 5G image">
+                        <h2>Realme 12 Pro 5G</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 col-xs-12">
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <img src="new Realme 12pro 5G.png" alt="Realme 12pro 5G image">
+                        <h2>Realme 12 Pro 5G</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 col-xs-12">
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <img src="new Realme 12pro 5G.png" alt="Realme 12pro 5G image">
+                        <h2>Realme 12 Pro 5G</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 col-xs-12">
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <img src="new Realme 12pro 5G.png" alt="Realme 12pro 5G image">
+                        <h2>Realme 12 Pro 5G</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="vivo" class="container-fluid">
+        <h2>Vivo</h2>
+        <h4>New Launches</h4>
+        <div class="row d-flex flex-wrap">
+            <div class="col-sm-4 col-xs-12">
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <img src="new Realme 12pro 5G.png" alt="Realme 12pro 5G image">
+                        <h2>Realme 12 Pro 5G</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 col-xs-12">
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <img src="new Realme 12pro 5G.png" alt="Realme 12pro 5G image">
+                        <h2>Realme 12 Pro 5G</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 col-xs-12">
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <img src="new Realme 12pro 5G.png" alt="Realme 12pro 5G image">
+                        <h2>Realme 12 Pro 5G</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 col-xs-12">
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <img src="new Realme 12pro 5G.png" alt="Realme 12pro 5G image">
+                        <h2>Realme 12 Pro 5G</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 col-xs-12">
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <img src="new Realme 12pro 5G.png" alt="Realme 12pro 5G image">
+                        <h2>Realme 12 Pro 5G</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 col-xs-12">
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <img src="new Realme 12pro 5G.png" alt="Realme 12pro 5G image">
+                        <h2>Realme 12 Pro 5G</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="infinix" class="container-fluid">
+        <h2>Infinix</h2>
+        <h4>New Launches</h4>
+        <div class="row d-flex flex-wrap">
+            <div class="col-sm-4 col-xs-12">
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <img src="new Realme 12pro 5G.png" alt="Realme 12pro 5G image">
+                        <h2>Realme 12 Pro 5G</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 col-xs-12">
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <img src="new Realme 12pro 5G.png" alt="Realme 12pro 5G image">
+                        <h2>Realme 12 Pro 5G</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 col-xs-12">
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <img src="new Realme 12pro 5G.png" alt="Realme 12pro 5G image">
+                        <h2>Realme 12 Pro 5G</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 col-xs-12">
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <img src="new Realme 12pro 5G.png" alt="Realme 12pro 5G image">
+                        <h2>Realme 12 Pro 5G</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 col-xs-12">
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <img src="new Realme 12pro 5G.png" alt="Realme 12pro 5G image">
+                        <h2>Realme 12 Pro 5G</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 col-xs-12">
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <img src="new Realme 12pro 5G.png" alt="Realme 12pro 5G image">
+                        <h2>Realme 12 Pro 5G</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer class="main-footer container-fluid">
+        <div class="text-center">
+            <a href="#myPage">
+                <span class="glyphicon glyphicon-chevron-up"></span>
+            </a>
+            <p>&copy;All rights reserved 2024</p>
+        </div>
+        <hr>
+        <a href="#">Terms and Condition</a>
+        <a href="#">Customer Service</a>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
